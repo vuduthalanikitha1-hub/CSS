@@ -1,17 +1,16 @@
-h1{
-    color:green;
-}
-h1{ 
-    color:rgb(9, 0, 128);
-}
-p{
-    color:blueviolet
+*{
+    color:blue;
 }
 
 button{
-    color:rgb(255, 0, 238)
+    color:red;
 }
-
-body{
-    background-color: black;
+#headingOne{
+    color:green
+}
+#headingTwo{
+    color:rgb(255, 0, 179);
+}
+.myclass{
+    color:red;
 }
