@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loading Animation</title>
+    <style>
+        .loader {
+            width: 60px;
+            height: 60px;
+            border: 6px solid #ddd;
+            border-top: 6px solid blue;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Loading...</h2>
+    <div class="loader"></div>
+</body>
+</html>
+
