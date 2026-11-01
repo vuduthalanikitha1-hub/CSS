@@ -1,8 +1,10 @@
-#box{
-    background-color: blue;
-    /*color: white;*/
-    /*this is a comment*/
+div{
+    hegiht:100px;
+    background-color:blue;
+    width:200px;
 }
-h1,h2,h3{
-    color: red
+
+h1{
+    width:100px;
+    background-color:red;
 }
